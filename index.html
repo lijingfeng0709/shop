@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+
+
+		    <title>好利友</title><link rel="shortcut icon" href="../icon.png" >
+    </head>
+<style>
+body{
+	
+	font-family:微软雅黑;
+	}
+.myButton {
+	background-color:#09F; width:120px; height:40px; border:thin; cursor:pointer; color:#FFF; font-family:楷体;-webkit-transition:background 0.3s; font-size:15pt;
+}
+.myButton:hover {
+	background-color:#e4685d;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+</style>
+     <body bgcolor="#FAFAFA"><iframe src="top/index.php" width=100% height=225px frameborder="0" scrolling="no" style=" top:0px; left:0;"   ></iframe>
+<div align="center" style="margin-top:-50px;margin-bottom:30px;font-size:14px;position:abusute">Tip:首次使用返利时，请仔细查看<a href="notice/" style="color:#F00">返利须知</a>！</div>
+<div align="center">
+<!-- 文本框-->
+ 
+<input type="text" id="txtuser" style="width:500px; height:30px; font-size:15px; border:2px #F00 solid;">
+<input type="text" id="txtuser1" style="cursor:pointer;background:#F00;width:50px; height:30px;position:absolute; font-size:15px; border:2px #F00 solid;text-align:center; color:#FFF; margin-left:-5px" onclick="myFunction()" value="搜索"><br>
+价格区间：
+<input type="text" id="x1" style="width:30px; margin-top:3px"> - <input type="text" id="x2" style="width:30px; margin-top:3px">
+<br>
+ <!-- 按钮-->
+ <!-- 动态搜索-->
+ <script>
+function myFunction() {
+	
+    var x = document.getElementById("txtuser").value;
+	var x1=document.getElementById("x1").value;
+	var x2=document.getElementById("x2").value;
+    var y="http://ai.taobao.com/search/index.htm?pid=mm_16381314_5240300_15840121&unid=&key=";
+	var z="&source_id=search&pvid=200_10.103.34.82_248_1420422772464&price="+x1+"~"+x2+"#app_pvid=200_10.103.34.82_248_1420422772464&clk1=5987ee91a53fe3b7683da27ac1e83b3a"
+
+	var r=y+x+z;
+	 window.open(r)
+	 
+}
+</script>
+ <script language="javascript">
+ <!-- 按钮快捷键-->
+ <!--document.onkeydown=function(){ss()}
+function ss(e)
+{
+	var keycode=e.which;
+ if(keycode==13)
+ {
+  myFunction();
+ }
+}
+document.onkeydown=ss;
+ <!--document.captureEvents(Event.KEYDOWN);
+
+</script> </div>
+<div align="center" style="margin-top:10px; font-size:15pt;position:abusute">
+服装类统一返利5%！<br>鞋包类统一返利3%！<br>手机配件类统一返利2%！<br>数码手机类统一返利1%！<br>其他类目请咨询站长！
+<a href="tencent://Message/?Uin=247084776&websiteName=qzone.qq.com&Menu=yes"><img  src="http://wpa.qq.com/pa?p=1:247084776:1"/>
+</a>
+<br>
+第一次使用返利时，请仔细查看返利须知！<br>
+<br>
+</div>
+</body>
+
+</html>
+
+ 
